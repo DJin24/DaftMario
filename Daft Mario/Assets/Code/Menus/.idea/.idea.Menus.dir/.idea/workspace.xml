@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9a15b19-97ce-4af3-8070-379f2a509fdc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/UIManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MainMenu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Game.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1ji6j7DItgoUGtDMZLqiqYCRk5N" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3496708" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29992685" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9a15b19-97ce-4af3-8070-379f2a509fdc" name="Default Changelist" comment="" />
+      <created>1604274701941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604274701941</updated>
+      <workItem from="1604274707237" duration="636000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="331" key="GridCell.Tab.0.bottom" timestamp="1604281482913">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604281482913" />
+    <state width="1398" height="331" key="GridCell.Tab.0.center" timestamp="1604281482912">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604281482912" />
+    <state width="1398" height="331" key="GridCell.Tab.0.left" timestamp="1604281482912">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604281482912" />
+    <state width="1398" height="331" key="GridCell.Tab.0.right" timestamp="1604281482913">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604281482913" />
+    <state width="1398" height="331" key="GridCell.Tab.1.bottom" timestamp="1604281482915">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604281482915" />
+    <state width="1398" height="331" key="GridCell.Tab.1.center" timestamp="1604281482914">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1604281482914" />
+    <state width="1398" height="331" key="GridCell.Tab.1.left" timestamp="1604281482913">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1604281482913" />
+    <state width="1398" height="331" key="GridCell.Tab.1.right" timestamp="1604281482915">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1604281482915" />
+    <state width="1398" height="331" key="GridCell.Tab.2.bottom" timestamp="1604281482917">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604281482917" />
+    <state width="1398" height="331" key="GridCell.Tab.2.center" timestamp="1604281482916">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1604281482916" />
+    <state width="1398" height="331" key="GridCell.Tab.2.left" timestamp="1604281482916">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1604281482916" />
+    <state width="1398" height="331" key="GridCell.Tab.2.right" timestamp="1604281482916">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1604281482916" />
+    <state width="1398" height="331" key="GridCell.Tab.3.bottom" timestamp="1604281482918">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604281482918" />
+    <state width="1398" height="331" key="GridCell.Tab.3.center" timestamp="1604281482918">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1604281482918" />
+    <state width="1398" height="331" key="GridCell.Tab.3.left" timestamp="1604281482917">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1604281482917" />
+    <state width="1398" height="331" key="GridCell.Tab.3.right" timestamp="1604281482918">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="331" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1604281482918" />
+  </component>
+</project>
