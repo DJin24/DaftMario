@@ -20,7 +20,6 @@ namespace Assets.Code
 
         public UIManager UI { get; private set; }
         public TimeManager Clock { get; private set; }
-        public PlatformManager Platforms { get; private set; }
         public ScoreManager Score { get; private set; }
 
         private Player.Player _player;
@@ -30,7 +29,6 @@ namespace Assets.Code
 
             UI = new UIManager();
             Clock = new TimeManager();
-            Platforms = new PlatformManager();
             Score = new ScoreManager();
 
             UI.ShowMainMenu();
@@ -46,7 +44,6 @@ namespace Assets.Code
 
             UI.GameStart();
             Clock.GameStart();
-            Platforms.GameStart();
             Score.GameStart();
 
         }
@@ -66,7 +63,6 @@ namespace Assets.Code
 
             UI.GameEnd();
             Clock.GameEnd();
-            Platforms.GameEnd();
             Score.GameEnd();
         }
 
