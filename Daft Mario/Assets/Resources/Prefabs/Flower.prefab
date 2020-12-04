@@ -43,6 +43,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1005318954594322, guid: c5e690dcb01d9f140994cda23244e748, type: 3}
+      propertyPath: m_TagString
+      value: Flower
+      objectReference: {fileID: 0}
     - target: {fileID: 4712935750691390, guid: c5e690dcb01d9f140994cda23244e748, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.881292
@@ -128,6 +132,10 @@ PrefabInstance:
     - target: {fileID: 1005318954594322, guid: c5e690dcb01d9f140994cda23244e748, type: 3}
       propertyPath: m_Name
       value: Platform (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1005318954594322, guid: c5e690dcb01d9f140994cda23244e748, type: 3}
+      propertyPath: m_TagString
+      value: Flower
       objectReference: {fileID: 0}
     - target: {fileID: 4712935750691390, guid: c5e690dcb01d9f140994cda23244e748, type: 3}
       propertyPath: m_LocalPosition.x

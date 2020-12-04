@@ -1,26 +1,27 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
 
-public class ScoreKeeper : MonoBehaviour {
-    private static Text scoreText; // everyone has the same text
-
-    // Use this for initialization
+public class ScoreKeeper : MonoBehaviour
+{
+    private static Text display;
+    private static int score = 0;
     internal void Start ()
     {
-        scoreText = GetComponent<Text>();
-        scoreText.text = String.Format("");
+        display = GetComponent<Text>();
+        Refresh();
     }
 
-    public static void Win()
+    public static void AddToScore()
     {
-        scoreText.text = String.Format("You win! Press ESC to reset");
-        Time.timeScale = 0;
+        score += 1;
+        Refresh();
     }
     
-    public static void Lose()
+    private static void Refresh()
     {
-        scoreText.text = String.Format("You lose! Press ESC to reset");
-        Time.timeScale = 0;
+        display.text = $"Score: {score}";
     }
 }

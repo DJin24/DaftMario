@@ -44,6 +44,12 @@ namespace Assets.Code.Player
         }
 
         private void OnCollisionEnter2D(Collision2D other) {
+            string colliderTag = other.collider.tag;
+            if (colliderTag == "Foot" || colliderTag == "Flower") {
+                Destroy(gameObject);
+            } else if (colliderTag == "Body") {
+                Destroy(other.transform.parent.gameObject);
+            }
             _jumping = false;
         }
     }
