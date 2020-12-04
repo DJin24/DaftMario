@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Assets.Code.Player
 {
@@ -22,7 +23,10 @@ namespace Assets.Code.Player
 
         private void CheckKeys () {
             //if (Input.GetKeyDown(KeyCode.P)) { Game.Ctx.Clock.TogglePause(); }
-            if (Input.GetKeyDown(KeyCode.Space)) { Jump(); }
+            if (Input.GetKeyDown(KeyCode.Escape)) {
+                SceneManager.LoadScene("Level");
+                ScoreKeeper.ResetScore();
+            } else if (Input.GetKeyDown(KeyCode.Space)) { Jump(); }
             else if (Input.GetKey(KeyCode.A)) { Left(); }
             else if (Input.GetKey(KeyCode.D)) { Right(); }
             else { _rb.velocity = new Vector2(0f, _rb.velocity.y); }

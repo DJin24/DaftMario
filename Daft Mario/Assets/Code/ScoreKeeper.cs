@@ -19,6 +19,12 @@ public class ScoreKeeper : MonoBehaviour
         score += 1;
         Refresh();
     }
+
+    public static void ResetScore()
+    {
+        score = 0;
+        Refresh();
+    }
     
     private static void Refresh()
     {
