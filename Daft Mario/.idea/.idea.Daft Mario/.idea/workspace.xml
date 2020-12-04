@@ -21,7 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0aa3d3ad-f1ed-47ae-9193-0631bee0d43a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Daft Mario/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Daft Mario/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScoreKeeper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScoreKeeper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
@@ -60,14 +63,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../../Exercise 4/Assets/Code/LoseBox.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/ScoreKeeper.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Goomba.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Coin.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Flower.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/FlowerChild.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Menus/InstructionMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/ScoreKeeper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Player.cs" />
       </list>
     </option>
   </component>
@@ -94,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607052841754</updated>
       <workItem from="1607052857128" duration="7035000" />
-      <workItem from="1607103701047" duration="1464000" />
+      <workItem from="1607103701047" duration="2242000" />
     </task>
     <servers />
   </component>

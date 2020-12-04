@@ -24,6 +24,7 @@ namespace Assets.Code.Player
 
         internal void Update () {
             CheckKeys();
+            if (gameObject.transform.position.y < -6) { KillPlayer(); }
         }
 
         private void CheckKeys () {
@@ -72,13 +73,18 @@ namespace Assets.Code.Player
             _rb.velocity = new Vector2(5f, _rb.velocity.y);
         }
 
+        private void KillPlayer() {
+            GetComponent<AudioSource>().PlayOneShot(death_sound);
+            transform.position = startPos;
+            _alive = false;
+            GetComponent<SpriteRenderer>().enabled = false;
+            ScoreKeeper.Lose();
+        }
+
         private void OnCollisionEnter2D(Collision2D other) {
             string colliderTag = other.collider.tag;
             if (colliderTag == "Foot" || colliderTag == "Flower") {
-                GetComponent<AudioSource>().PlayOneShot(death_sound);
-                transform.position = startPos;
-                _alive = false;
-                GetComponent<SpriteRenderer>().enabled = false;
+                KillPlayer();
             } else if (colliderTag == "Body") {
                 GetComponent<AudioSource>().PlayOneShot(other.transform.parent.GetComponent<Goomba>().goomba_sound);
                 Destroy(other.transform.parent.gameObject);
