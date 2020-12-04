@@ -8,8 +8,9 @@ namespace Assets.Code.Player
 
     public class Player : MonoBehaviour
     {
+        public AudioClip jump_sound;
         private static readonly Vector2 Acceleration = new Vector2(2f, 0f);
-        private static readonly Vector2 JumpVelocity = new Vector2(0f, 10f);
+        private static readonly Vector2 JumpVelocity = new Vector2(0f, 7.5f);
         private Rigidbody2D _rb;
         private bool _jumping = true;
         private bool _alive = true;
@@ -57,6 +58,7 @@ namespace Assets.Code.Player
         private void Jump () {
             if (!_jumping) {
                 _rb.velocity += JumpVelocity;
+                GetComponent<AudioSource>().PlayOneShot(jump_sound);
             }
             _jumping = true;
         }
@@ -76,6 +78,7 @@ namespace Assets.Code.Player
                 _alive = false;
                 GetComponent<SpriteRenderer>().enabled = false;
             } else if (colliderTag == "Body") {
+                GetComponent<AudioSource>().PlayOneShot(other.transform.parent.GetComponent<Goomba>().goomba_sound);
                 Destroy(other.transform.parent.gameObject);
             }
             _jumping = false;

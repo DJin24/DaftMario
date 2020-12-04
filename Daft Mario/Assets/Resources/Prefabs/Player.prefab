@@ -144,6 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8af4a03ba219b4d4e83261e2e5b38ae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jump_sound: {fileID: 8300000, guid: 7e37fe41f53154c7d826c038d40053d0, type: 3}
 --- !u!82 &2928843518011685477
 AudioSource:
   m_ObjectHideFlags: 0
