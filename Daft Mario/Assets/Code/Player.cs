@@ -9,6 +9,7 @@ namespace Assets.Code.Player
     public class Player : MonoBehaviour
     {
         public AudioClip jump_sound;
+        public AudioClip death_sound;
         private static readonly Vector2 Acceleration = new Vector2(2f, 0f);
         private static readonly Vector2 JumpVelocity = new Vector2(0f, 7.5f);
         private Rigidbody2D _rb;
@@ -74,6 +75,7 @@ namespace Assets.Code.Player
         private void OnCollisionEnter2D(Collision2D other) {
             string colliderTag = other.collider.tag;
             if (colliderTag == "Foot" || colliderTag == "Flower") {
+                GetComponent<AudioSource>().PlayOneShot(death_sound);
                 transform.position = startPos;
                 _alive = false;
                 GetComponent<SpriteRenderer>().enabled = false;
