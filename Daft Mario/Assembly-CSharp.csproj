@@ -61,7 +61,11 @@
      <Compile Include="Assets\Code\Coin.cs" />
      <Compile Include="Assets\Code\Flower\Flower.cs" />
      <Compile Include="Assets\Code\Flower\FlowerChild.cs" />
+     <Compile Include="Assets\Code\Game.cs" />
      <Compile Include="Assets\Code\Goomba.cs" />
+     <Compile Include="Assets\Code\Menus\InstructionMenu.cs" />
+     <Compile Include="Assets\Code\Menus\MainMenu.cs" />
+     <Compile Include="Assets\Code\Menus\UIManager.cs" />
      <Compile Include="Assets\Code\Player.cs" />
      <Compile Include="Assets\Code\ScoreKeeper.cs" />
  <Reference Include="Unity.Timeline.Editor">
