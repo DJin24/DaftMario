@@ -11,10 +11,13 @@ namespace Assets.Code.Player
         private static readonly Vector2 Acceleration = new Vector2(2f, 0f);
         private static readonly Vector2 JumpVelocity = new Vector2(0f, 10f);
         private Rigidbody2D _rb;
-        private bool _jumping; // are we jumping?
+        private bool _jumping = true;
+        private bool _alive = true;
+        private Vector3 startPos;
 
         internal void Start () {
             _rb = GetComponent<Rigidbody2D>();
+            startPos = transform.position;
         }
 
         internal void Update () {
@@ -23,13 +26,32 @@ namespace Assets.Code.Player
 
         private void CheckKeys () {
             //if (Input.GetKeyDown(KeyCode.P)) { Game.Ctx.Clock.TogglePause(); }
-            if (Input.GetKeyDown(KeyCode.Escape)) {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                _alive = true;
                 SceneManager.LoadScene("Level");
                 ScoreKeeper.ResetScore();
-            } else if (Input.GetKeyDown(KeyCode.Space)) { Jump(); }
-            else if (Input.GetKey(KeyCode.A)) { Left(); }
-            else if (Input.GetKey(KeyCode.D)) { Right(); }
-            else { _rb.velocity = new Vector2(0f, _rb.velocity.y); }
+            }
+
+            if (_alive)
+            {
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    Jump();
+                }
+                else if (Input.GetKey(KeyCode.A))
+                {
+                    Left();
+                }
+                else if (Input.GetKey(KeyCode.D))
+                {
+                    Right();
+                }
+                else
+                {
+                    _rb.velocity = new Vector2(0f, _rb.velocity.y);
+                }
+            }
         }
 
         private void Jump () {
@@ -50,7 +72,9 @@ namespace Assets.Code.Player
         private void OnCollisionEnter2D(Collision2D other) {
             string colliderTag = other.collider.tag;
             if (colliderTag == "Foot" || colliderTag == "Flower") {
-                Destroy(gameObject);
+                transform.position = startPos;
+                _alive = false;
+                GetComponent<SpriteRenderer>().enabled = false;
             } else if (colliderTag == "Body") {
                 Destroy(other.transform.parent.gameObject);
             }
